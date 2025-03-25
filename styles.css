@@ -1,5 +1,6 @@
 body {
   font-family: sans-serif;
+  background-image: url(back.jpg);
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
@@ -55,4 +56,19 @@ p {
 .kepfelirat p{
   justify-content: center;
   line-height: 140%;
+}
+
+h3{
+  text-indent: 10px;
+  font-style: italic;
+}
+
+a{
+  text-decoration: none;
+}
+a, a:visited{
+  color: yellow;
+}
+a:hover{
+  color: red;
 }
